@@ -1,0 +1,12 @@
+--- Compositor.xcodeproj/project.pbxproj.orig
++++ Compositor.xcodeproj/project.pbxproj
+@@
+-				knownRegions = (
+-					en,
+-					Base,
+-				);
++				knownRegions = (
++					en,
++					zh-Hans,
++					Base,
++				);

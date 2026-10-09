@@ -1,0 +1,4 @@
+/* InfoPlist.strings - 简体中文 */
+"CFBundleDisplayName" = "Compositor 合成器";
+"CFBundleName" = "Compositor 合成器";
+"NSHumanReadableCopyright" = "版权所有 © Robbie Tilton。MIT 开源许可。";

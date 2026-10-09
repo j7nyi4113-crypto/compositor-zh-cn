@@ -1,0 +1,17 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+*.tmp
+Thumbs.db
+.GEOF
+chmod 644 "$REPO_ROOT/.gitignore"
+
+# ── 7. Sanity check files ─────────────────────────────────────────────────
+echo ""
+echo "✅  仓库内容目录 ($REPO_ROOT):"
+find "$REPO_ROOT" -maxdepth 3 \( -type f -o -type d \) | sort | sed -E "s|^$REPO_ROOT||" | sed 's|^/||' | sed 's|^|  |' | head -80
+echo ""
+echo "大小统计:"
+du -sh "$REPO_ROOT" "$REPO_ROOT/resources/zh-Hans.lproj" "$REPO_ROOT/scripts" 2>/dev/null | sed 's|^|  |'
+__tr_native_ec=$?; pwd -P >| '/var/folders/3p/0pd60kjd1czfkn9md8sctwz80000gn/T/trae-agent-toolhost-501/jobs/job-0cf673e8325843da937e8edb13017e4e/cwd.txt'; exit "$__tr_native_ec"

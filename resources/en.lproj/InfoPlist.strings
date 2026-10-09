@@ -1,0 +1,4 @@
+/* InfoPlist.strings - English (fallback) */
+"CFBundleDisplayName" = "Compositor";
+"CFBundleName" = "Compositor";
+"NSHumanReadableCopyright" = "Copyright © Robbie Tilton. MIT License.";
